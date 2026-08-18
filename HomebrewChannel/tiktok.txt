@@ -20,7 +20,7 @@
         "rootRequired": false,
         "ipkUrl": "https://github.com/malmahdawi/tiktok-webos-fixed/releases/download/v1.1.0/tiktok.malmahdawi.v1_1.1.0_all.ipk",
         "ipkHash": {
-          "sha256": "7250e98bad992905ec45fab13242147710adda7f59c739509fe6bcbf8eb13c8b"
+          "sha256": "17a9672826583b6615c8c357a2affb7f3354221e29498486f17f25cf4ad3c573"
         }
       },
       "shortDescription": "Unofficial TikTok App for WebOS with extended features",
