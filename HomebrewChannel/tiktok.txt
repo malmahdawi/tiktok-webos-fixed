@@ -9,14 +9,14 @@
     {
       "id": "tiktok.malmahdawi.v1",
       "title": "TikTok",
-      "iconUri": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos/main/assets/largeIcon.png",
+      "iconUri": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos-fixed/main/assets/largeIcon.png",
       "manifest": {
         "id": "tiktok.malmahdawi.v1",
         "version": "1.1.0",
         "type": "web",
         "title": "TikTok",
-        "iconUri": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos/main/assets/largeIcon.png",
-        "sourceUrl": "https://github.com/malmahdawi/tiktok-webos",
+        "iconUri": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos-fixed/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/malmahdawi/tiktok-webos-fixed",
         "rootRequired": false,
         "ipkUrl": "https://drive.usercontent.google.com/uc?id=10lgcgX8Tp58hK2tAMD_MTyj4GWTXAKre&export=download",
         "ipkHash": {
@@ -24,7 +24,7 @@
         }
       },
       "shortDescription": "Unofficial TikTok App for WebOS with extended features",
-      "fullDescriptionUrl": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos/main/HomebrewChannel/index.html"
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos-fixed/main/HomebrewChannel/index.html"
     }
   ]
 }
