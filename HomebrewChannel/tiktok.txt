@@ -18,9 +18,9 @@
         "iconUri": "https://raw.githubusercontent.com/malmahdawi/tiktok-webos-fixed/main/assets/largeIcon.png",
         "sourceUrl": "https://github.com/malmahdawi/tiktok-webos-fixed",
         "rootRequired": false,
-        "ipkUrl": "https://drive.usercontent.google.com/uc?id=10lgcgX8Tp58hK2tAMD_MTyj4GWTXAKre&export=download",
+        "ipkUrl": "https://github.com/malmahdawi/tiktok-webos-fixed/releases/latest/download/tiktok.malmahdawi.v1_1.1.0_all.ipk",
         "ipkHash": {
-          "sha256": "acda05efc34d6c252d83057db10da0d53c171822874612a1a4a8fcba66d404f4"
+          "sha256": "7250e98bad992905ec45fab13242147710adda7f59c739509fe6bcbf8eb13c8b"
         }
       },
       "shortDescription": "Unofficial TikTok App for WebOS with extended features",

@@ -34,7 +34,7 @@ Unofficial TikTok App for WebOS with extended features
   Original link
 
   ```
-  https://raw.githubusercontent.com/DjVreditel/tiktok-webos/main/HomebrewChannel/tiktok.txt
+  https://raw.githubusercontent.com/malmahdawi/tiktok-webos-fixed/main/HomebrewChannel/tiktok.txt
   ```
 
 ### Autostart
@@ -43,7 +43,7 @@ To autostart an application, the following command needs to be executed
 via SSH or Telnet:
 
 ```sh
-luna-send-pub -n 1 'luna://com.webos.service.eim/addDevice' '{"appId":"tiktok.djvreditel.v1","pigImage":"","mvpdIcon":""}'
+luna-send-pub -n 1 'luna://com.webos.service.eim/addDevice' '{"appId":"tiktok.malmahdawi.v1","pigImage":"","mvpdIcon":""}'
 ```
 
 This will make "TikTok" display as an eligible input application (next
@@ -57,7 +57,7 @@ constantly in the background, at the cost of increased idle memory usage.
 To disable app autostart run this:
 
 ```sh
-luna-send-pub -n 1 'luna://com.webos.service.eim/deleteDevice' '{"appId":"tiktok.djvreditel.v1"}'
+luna-send-pub -n 1 'luna://com.webos.service.eim/deleteDevice' '{"appId":"tiktok.malmahdawi.v1"}'
 ```
 
 ## Building

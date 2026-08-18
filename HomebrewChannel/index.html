@@ -1,42 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>TikTok TV Fixed</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TikTok WebOS (Fixed)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        body, html {
-            margin: 0; padding: 0; width: 100%; height: 100%;
-            overflow: hidden; background-color: #000;
-        }
-        #tiktok-container {
-            width: 100%; height: 100%; border: none;
-        }
+      body {
+        margin: 0;
+        padding: 2rem;
+        font-family: sans-serif;
+        background-color: #000;
+        color: #eee;
+        line-height: 1.6;
+      }
+      h1 {
+        color: #fff;
+      }
+      code {
+        background-color: #222;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+      a {
+        color: #69c9d0;
+      }
     </style>
-</head>
-<body>
-
-    <!-- Trỏ thẳng vào TikTok di động mượt để bypass lỗi 502 -->
-    <iframe id="tiktok-container" src="https://tiktok.com" allow="autoplay; encrypted-media" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-
-    <script>
-        // Lướt bằng con lăn trên Magic Remote
-        window.addEventListener('wheel', function(event) {
-            var iframe = document.getElementById('tiktok-container');
-            if (iframe && iframe.contentWindow) {
-                iframe.contentWindow.scrollBy(0, event.deltaY);
-            }
-        });
-
-        // Lướt bằng phím Lên / Xuống trên Remote
-        window.addEventListener('keydown', function(e) {
-            var iframe = document.getElementById('tiktok-container');
-            if (!iframe) return;
-            if (e.keyCode === 38) { // Mũi tên Lên
-                iframe.contentWindow.scrollBy(0, -600);
-            } else if (e.keyCode === 40) { // Mũi tên Xuống
-                iframe.contentWindow.scrollBy(0, 600);
-            }
-        });
-    </script>
-</body>
+  </head>
+  <body>
+    <h1>TikTok WebOS (Fixed)</h1>
+    <p>
+      Unofficial TikTok app for LG webOS TVs. This fork loads the regular
+      <code>tiktok.com</code> website because the official TikTok TV service
+      (<code>tv.tiktok.com</code>) was discontinued on June 15, 2025.
+    </p>
+    <h2>HotKeys</h2>
+    <ul>
+      <li>🔴 Red button — Like/Dislike</li>
+      <li>🟢 Green button — Rewind five seconds</li>
+      <li>🟡 Yellow button — Fast-forward five seconds</li>
+    </ul>
+    <h2>Source</h2>
+    <p>
+      <a href="https://github.com/malmahdawi/tiktok-webos-fixed"
+        >github.com/malmahdawi/tiktok-webos-fixed</a
+      >
+      (forked from
+      <a href="https://github.com/DjVreditel/tiktok-webos"
+        >DjVreditel/tiktok-webos</a
+      >)
+    </p>
+  </body>
 </html>
